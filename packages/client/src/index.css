@@ -81,6 +81,7 @@ body {
 }
 
 .search-dropdown-menu {
+  position: relative !important;
   max-height: 450px;
   overflow: scroll;
 }
