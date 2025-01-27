@@ -97,8 +97,8 @@ For larger or more time-intensive changes, you're welcome to outline your ideas 
 5. I also cache the collections for slightly better, maybe slightly more performant queries against the data.
 6. I have tried to componentise the application a best possible in the time I allowed myself.
 7. Created some custom hooks to try and make the application a little more performant, as well debouncing to reduce the number of API calls.
-8. Using React router in order to be able to link off ot hte pages when the item is clicked.
-9. The close button now clears teh search input and serach results.
+8. Using React router in order to be able to link off to the pages when the item is clicked.
+9. The close button now clears teh search input and search results.
 10. Better error handling is needed in the pages, but for now it does what is requested.
 11. Testing would need to be added, for both the back end services as well as the front end components. Using Vitest is a good way to go, but additionally, I would recommend using Storybook as we used it at my previous place of employment, and it helps speed up front-end dev. Helpful to see components before fully implemented too, so you can resolve unseen issues, or even fail fast in a cycle. I haven't added any tests as I only had about half a day to do the test, but something that definitely would be needed.
 
